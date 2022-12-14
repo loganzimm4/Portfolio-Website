@@ -17,11 +17,12 @@ const Hero = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
-            <HeroH1>Hello, my name is Logan</HeroH1>
+            <HeroH1>Hey, I'm Logan</HeroH1>
             <HeroP>
-                I am a 24 year old Software Developer from Cincinnati, Ohio.
-                I hope this website adequately shows off my competence and ability 
-                to complete the job you're looking to fill!
+                I'm a 24 year old Software Developer from Cincinnati, Ohio.
+            </HeroP>
+            <HeroP>
+                I'm a graduate from The Flatiron School's Software Egnineering Bootcamp.
             </HeroP>
             <HeroBtnWrapper>
                 <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
